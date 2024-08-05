@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+
+.gap-2 {
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.border {
+    margin: 20px;
+    padding: 20px;
+}
+
+.p-2{
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.gap-4{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.flex{
+    align-items: center;
+}
